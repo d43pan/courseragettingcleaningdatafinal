@@ -152,7 +152,7 @@ run_analysis <- function(){
     group_by( activity, subject ) %>%
     summarize_each(funs(mean))
   
-  write.table(combined_summarized_mean, file="tidy_data.dtf")
+  write.table(combined_summarized_mean, file="tidy_data.txt", row.names = FALSE)
   
   # This is a convenience list for returning each of the pieces of information I created along the way.
   # Used for testing and validation at each step
@@ -173,6 +173,6 @@ run_analysis <- function(){
 
 
 get_tidy_data <- function(){
-  tidy_data <- read.table("tidy_data.dtf")
+  tidy_data <- read.table("tidy_data.txt")
   tidy_data
 }

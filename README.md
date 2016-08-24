@@ -69,7 +69,7 @@ no parameters needed.
 
 Reads the tidy dataset and returns it.
  
-**/data/tidy_data.dtf**  
+**/data/tidy_data.txt**  
 
 Ready to go output of my final tidy dataset.  Read it in with the steps at the top of this file.
 
