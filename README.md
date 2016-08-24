@@ -8,7 +8,8 @@ My goals for this project submission are:
 
 
 ## Steps to get final tidy dataset.
-- Ensure you're current working directory is the code directory for the project.
+- Ensure you're current working directory is the code directory for the project.  
+
 - source the run_analysis.R file  
 	  ```source('run_analysis.R')```  
 	   
