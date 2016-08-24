@@ -173,6 +173,6 @@ run_analysis <- function(){
 
 
 get_tidy_data <- function(){
-  tidy_data <- read.table("tidy_data.txt")
+  tidy_data <- read.table("tidy_data.txt", header = TRUE)
   tidy_data
 }
