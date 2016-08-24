@@ -12,13 +12,13 @@ My goals for this project submission are:
 
 - source the run_analysis.R file  
 	  ```source('run_analysis.R')```  
-	   
+  
 - run the analysis  
 	```run_analysis()```  
-		  
+
 - read the tidy dataset into a variable  
 	```tidy_data <- get_tidy_data()```  
-	
+
 - View the tidy dataset  
 	```View(tidy_data)```  
 	
