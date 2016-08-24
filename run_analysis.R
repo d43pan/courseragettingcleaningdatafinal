@@ -152,7 +152,7 @@ run_analysis <- function(){
     group_by( activity, subject ) %>%
     summarize_each(funs(mean))
   
-
+  write.table(combined_summarized_mean, file="tidy_data.dtf")
   
   # This is a convenience list for returning each of the pieces of information I created along the way.
   # Used for testing and validation at each step
@@ -165,7 +165,14 @@ run_analysis <- function(){
                 descriptive_var_names = descriptive_var_names,
                 activity_labels = activity_labels, 
                 combined_summarized_mean = combined_summarized_mean)
-  vars
+  #vars
   
-  #combined_summarized_mean
+  invisible(combined_summarized_mean)
+}
+
+
+
+get_tidy_data <- function(){
+  tidy_data <- read.table("tidy_data.dtf")
+  tidy_data
 }
