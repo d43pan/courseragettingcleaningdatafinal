@@ -1,33 +1,36 @@
 
 Welcome to my final project for the Getting and Cleaning Data Course.  
+=====================================================================
 
-My goals for this project submission are:  
+My goals for this project submission are
+----------------------------------------  
 - to be clear with the steps I took  
 - to have my variables well described  
 - to have my datasets tidy  
 
 
-## Steps to get final tidy dataset.
+Steps to get final tidy dataset.
+--------------------------------
 - Ensure you're current working directory is the code directory for the project.  
 
 - source the run_analysis.R file  
-	  ```source('run_analysis.R')```  
+	`source('run_analysis.R')`
   
 - run the analysis  
-	```run_analysis()```  
+	run_analysis()
 
 - read the tidy dataset into a variable  
-	```tidy_data <- get_tidy_data()```  
+	tidy_data <- get_tidy_data() 
 
 - View the tidy dataset  
-	```View(tidy_data)```  
+	View(tidy_data) 
 	
 
 
-## This project includes the following files
+This project includes the following files
+-----------------------------------------
 
-
-### run_analysis.R
+- run_analysis.R  
 
 This script contains the following functions: 
 
@@ -66,10 +69,10 @@ no parameters needed.
 
 Reads the tidy dataset and returns it.
 
-### CodeBook.md
+- CodeBook.md  
 
 This file describes the variables, data, and transformations I did in order to get to the final analysis.
 
-### README.md
+- README.md  
 
 This file.  Used as an index to describe the other files.
