@@ -19,7 +19,8 @@ My goals for this project submission are:
 	```tidy_data <- get_tidy_data()```  
 	
 - View the tidy dataset  
-	```View(tidy_data)```
+	```View(tidy_data)```  
+	
 
 
 ## This project includes the following files
