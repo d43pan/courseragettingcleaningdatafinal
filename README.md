@@ -17,20 +17,20 @@ Steps to get final tidy dataset.
 	`source('run_analysis.R')`
   
 - run the analysis  
-	run_analysis()
+	`run_analysis()`
 
 - read the tidy dataset into a variable  
-	tidy_data <- get_tidy_data() 
+	`tidy_data <- get_tidy_data()`
 
 - View the tidy dataset  
-	View(tidy_data) 
+	`View(tidy_data)` 
 	
 
 
 This project includes the following files
 -----------------------------------------
 
-- run_analysis.R  
+**run_analysis.R**  
 
 This script contains the following functions: 
 
@@ -68,11 +68,25 @@ It does the following 5 steps as defined by the project description.
 no parameters needed.
 
 Reads the tidy dataset and returns it.
+ 
+**/data/tidy_data.dtf**  
 
-- CodeBook.md  
+Ready to go output of my final tidy dataset.  Read it in with the steps at the top of this file.
+
+**/data/ucihar.zip**  
+
+Original unzipped data which was downloaded on August 17, 2016
+
+**/data/UCI HAR Dataset**  
+
+All files which were unzipped from the original dataset.
+
+**CodeBook.md**  
 
 This file describes the variables, data, and transformations I did in order to get to the final analysis.
 
-- README.md  
+**README.md**  
 
 This file.  Used as an index to describe the other files.
+
+
