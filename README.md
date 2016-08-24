@@ -38,16 +38,16 @@ This script contains the following functions:
 
 Helper function to download files with easy to use names to desired directory.
 
-remote_filename  - the url of the file to download
-desired_filename - the desired local filename
-dir              - the desired directory to download the remote file to
+*remote_filename*  - the url of the file to download
+*desired_filename* - the desired local filename
+*dir*              - the desired directory to download the remote file to
 
 
 `setnewwd(data_directory)`
 
 Helper function to create and set a working directory if needed.
 
-data_directory - created if data_directory is not in current working directory or current working directory is not data_directory
+*data_directory* - created if data_directory is not in current working directory or current working directory is not data_directory
 
 
 `run_analysis()`
